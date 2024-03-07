@@ -1,6 +1,6 @@
 const enNavbar = {
   hideOnScroll: true,
-  title: "AI Short",
+  title: "泼墨提示词",
   logo: {
     alt: "ChatGPT Shortcuts",
     src: "img/logo.svg",

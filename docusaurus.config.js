@@ -168,7 +168,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} 泼墨 (pomoo prompt)`,
+        copyright: `Copyright © ${new Date().getFullYear()} 泼墨 (pomoo.ai)`,
       },
       prism: {
         theme: prismThemes.github,

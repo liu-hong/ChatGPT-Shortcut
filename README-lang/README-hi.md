@@ -1,5 +1,5 @@
 <h1 align="center">
-⚡️AI Short
+⚡️泼墨提示词
 </h1>
 <p align="center">
     <a href="/README-en.md">English</a> | <a href="/README.md">中文</a> |

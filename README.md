@@ -1,5 +1,5 @@
 <h1 align="center">
-⚡️AI Short
+⚡️泼墨提示词
 </h1>
 <p align="center">
     English | <a href="./README-zh.md">中文</a> |
@@ -117,7 +117,7 @@ Feel free to show support for this project by giving it a star/follow, or by fol
 
 ## Modification Information
 
-AI Short is an open-source project, affording you the liberty to make alterations to the nomenclature and explication of the website.
+泼墨提示词 is an open-source project, affording you the liberty to make alterations to the nomenclature and explication of the website.
 
 - To amend the appellation of the page, please peruse the `docusaurus.config.js` document.
 - For the modification of usage directives, navigate to the `docs` directory.

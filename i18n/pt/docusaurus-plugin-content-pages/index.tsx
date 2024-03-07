@@ -38,7 +38,7 @@ const TITLE = translate({
 });
 const DESCRIPTION = translate({
   id: "homepage.description",
-  message: "AI Short 是一款用于管理和分享 AI 提示词的工具，帮助用户更有效地定制、保存和共享自己的提示词，以提高生产力。该平台还包括一个提示词分享社区，让用户轻松找到适用于不同场景的指令。",
+  message: "泼墨提示词 是一款用于管理和分享 AI 提示词的工具，帮助用户更有效地定制、保存和共享自己的提示词，以提高生产力。该平台还包括一个提示词分享社区，让用户轻松找到适用于不同场景的指令。",
 });
 const SLOGAN = translate({
   id: "homepage.slogan",
@@ -112,7 +112,7 @@ function ShowcaseHeader() {
   return (
     <section className={"text--center"}>
       <div className={styles.hideOnMobile}>
-        <Heading as="h1">AI Short</Heading>
+        <Heading as="h1">泼墨提示词</Heading>
         <p>{SLOGAN}</p>
       </div>
       <UserStatus hideLinks={{ userCenter: false, myFavorite: false }} />

@@ -1,5 +1,5 @@
 <h1 align="center">
-⚡️AI Short
+⚡️泼墨提示词
 </h1>
 <p align="center">
     <a href="./README.md">English</a> | 中文 |
@@ -119,7 +119,7 @@ yarn build --locale bn
 
 ## 网站修改
 
-AI Short 是一个开源项目，你可以自由修改网站的名称和说明。
+泼墨提示词 是一个开源项目，你可以自由修改网站的名称和说明。
 
 - 要更改页面名称，请编辑 `docusaurus.config.js` 文件。
 - 要修改使用说明，请前往 `docs` 目录。
