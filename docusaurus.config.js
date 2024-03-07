@@ -11,12 +11,12 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
+  title: "泼墨提示词-AI Prompt Management,Productivity Tool",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://share.pomoo.ai/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -80,22 +80,22 @@ const config = {
       metadata: [
         {
           name: "keywords",
-          content: "prompt,aishort,ChatGPT Shortcut,ChatGPT SC,ChatGPT,AI prompts，提示词",
+          content: "prompt,pomoo,泼墨,ChatGPT,AI prompts，提示词",
         },
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "泼墨提示词",
         logo: {
-          alt: "ChatGPT Shortcuts",
+          alt: "pomoo prompt",
           src: "img/logo.svg",
         },
         items: [
-          {
+          /*{
             to: "docs",
             label: "📘 使用说明",
             position: "left",
-          },
+          },*/
           {
             to: "/community-prompts",
             label: "🏘️ 社区提示词",
@@ -106,10 +106,10 @@ const config = {
             label: "🛠️ 应用工具",
             position: "left",
             items: [
-              {
+              /*{
                 label: "脚本扩展",
                 to: "/docs/guides/extension",
-              },
+              },*/
               {
                 label: "IMGPrompt",
                 href: "https://prompt.newzone.top/",
@@ -118,14 +118,14 @@ const config = {
                 label: "文字处理",
                 href: "https://tools.newzone.top/json-translate",
               },
-              {
+              /*{
                 label: "工具收藏",
                 href: "https://nav.newzone.top",
               },
               {
                 label: "Find on Product Hunt",
                 href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
-              },
+              },*/
             ],
           },
           {
@@ -137,19 +137,19 @@ const config = {
                 label: "📝 提交反馈",
                 to: "/feedback",
               },
-              {
+              /*{
                 label: "💬 加入 QQ 群",
                 href: "https://img.newzone.top/qq736094782.jpg?imageMogr2/format/webp",
               },
               {
                 label: "📺 加入 Discord",
                 href: "https://discord.gg/PZTQfJ4GjX",
-              },
+              },*/
             ],
           },
           // remove the language dropdown from the navbar (if you only have one language)
           { type: "localeDropdown", position: "right" },
-          {
+          /*{
             href: "https://qm.qq.com/q/sHgB9eqd6E",
             position: "right",
             className: "header-qq-link",
@@ -163,12 +163,12 @@ const config = {
             href: "https://github.com/rockbenben/ChatGPT-Shortcut",
             position: "right",
             className: "header-github-link",
-          },
+          },*/
         ],
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} AiShort (ChatGPT Shortcut)`,
+        copyright: `Copyright © ${new Date().getFullYear()} 泼墨 (pomoo prompt)`,
       },
       prism: {
         theme: prismThemes.github,
